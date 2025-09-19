@@ -3,6 +3,9 @@ We ask to search in the parent folder all the files that start with “temp-“ to c
 5.2. Can you explain why, in this case, we did not have to do git init?
 Because it is already a git repository, we use “git clone” and the url of the repository so it is already categorized as a git 
 5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
-Maybe with  “git commit * -m "initial commit" but it didn’t work.
+git add temp-average.csv temp-data.csv temp-doc.txt
+and after 
+git commit -m "Add temp files copied from another folder"
+
 
 
